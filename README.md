@@ -1,4 +1,33 @@
-# Install new machine
+# Install a new Ubuntu workstation
+
+- [Intro](#intro)
+- [i3](./i3.md)
+- [Base system](#base-system)
+  * [My Unix config](#my-unix-config)
+  * [SSH keys](#ssh-keys)
+- [LAMP stack](#lamp-stack)
+  * [Apache2](#apache2)
+  * [MariaDB](#mariadb)
+  * [PhpMyAdmin](#phpmyadmin)
+  * [PHP](#php)
+  * [Links](#links)
+- [Node](#node)
+  * [nvm](#nvm)
+  * [yarn](#yarn)
+- [Apps](#apps)
+  * [VSCode](#vscode)
+  * [Chrome](#chrome)
+  * [MySQL Workbench](#mysql-workbench)
+  * [Postman](#postman)
+  * [nginx](#nginx)
+  * [Docker](#docker)
+  * [git rebase editor](#git-rebase-editor)
+  * [F.Lux](#flux)
+- [Chrome extensions](#chrome-extensions)
+- [GPG](./gpg.md)
+- [Others](#others)
+
+# Intro
 
 ```
 sudo apt update
