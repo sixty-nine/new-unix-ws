@@ -90,6 +90,24 @@ sudo apt install mariadb-server mariadb-client
 sudo mysql_secure_installation
 ```
 
+### Change datadir
+
+See [How to change MySQL data directory?](https://stackoverflow.com/a/43398493/643106)
+
+```bash
+# Create new directory for MySQL data
+mkdir /new/dir/for/mysql
+
+# Set ownership of new directory to match existing one
+chown --reference=/var/lib/mysql /new/dir/for/mysql
+
+# Stop MySQL before copying over files
+service mysql stop
+
+# Copy all files in default directory, to new one, retaining perms (-p)
+cp -rp /var/lib/mysql/* /new/dir/for/mysql/
+```
+
 ## PhpMyAdmin
 
 ```
@@ -243,6 +261,7 @@ Set location to Fribourg (CH).
  * gimp
  * keepassx
  * [steam](https://www.omgubuntu.co.uk/2016/06/install-steam-on-ubuntu-16-04-lts)
+ * [NTP](https://medium.com/@rishabhdevyadav/how-to-install-ntp-server-and-client-s-on-ubuntu-18-04-lts-f0562e41d0e1)
  * vlc
  * youtube-dl
  * redis
