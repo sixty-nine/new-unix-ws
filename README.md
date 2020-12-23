@@ -255,6 +255,11 @@ Set location to Fribourg (CH).
  * [Momentum](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=en)
  * [Diigo](https://chrome.google.com/webstore/detail/diigo-web-collector-captu/pnhplgjpclknigjpccbcnmicgcieojbh?hl=en)
 
+# NextCloud
+
+ * [How to Setup a Raspberry Pi Nextcloud Server](https://pimylifeup.com/raspberry-pi-nextcloud-server/)
+ * [Installation on Linux](https://docs.nextcloud.com/server/20/admin_manual/installation/source_installation.html)
+
 # Others 
 
  * inkscape
